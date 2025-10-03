@@ -1,0 +1,143 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ethan Toomey</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/logo/favicon.png" sizes="48x48" />
+    <link rel="shortcut icon" type="image/x-icon" href="/logo/favicon.ico" />
+
+    <link rel="preload" as="image" href="/logo/logo.svg" />
+    <link rel="preload" as="image" href="/logo/moon-icon.svg" />
+    <link rel="preload" as="image" href="/logo/sun-icon.svg" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+<body>
+
+  <div class="navbar">
+    <div class="navbar-logo">
+      <a href="index.html#">
+        <img src="logo/logo.svg" alt="Logo" width="40" height="40">
+      </a>
+    </div>
+  
+    <div class="navbar-links">
+      <a href="index.html#about">About</a>
+      <a href="projects.html">Projects</a>
+    </div>
+  
+    <!-- Theme toggle button on the far right -->
+    <button class="theme-toggle" id="themeToggle">
+      <img id="themeIcon" src="logo/moon-icon.svg" alt="Theme Icon" width="24" height="24">
+    </button>
+  </div>
+
+  <main id="home">
+    <div class="intro-text container fade-in">
+      <h3>Hello, my name is</h3>
+      <h1 class="fade-in delay-1"><span id="typewriter"></span></h1>
+      <p></p>
+      <p>
+        I'm a recently graduated Computer Scientist from Maynooth University.
+        <br>
+        I enjoy problem solving and creating efficient, reliable solutions.
+        I’m passionate about learning new technologies and improving my skills as a software engineer.
+      </p>
+    </div>
+  </main>
+  
+  <section id="about" class="fade-in">
+    <h2>About</h2>
+    <p>
+      Through internships and projects, I've developed strong full-stack skills.
+      <br>
+      Whether working independently or in teams, like during my time at Tenable and the IEC, I strive to diagnose, fix and build to the best of my ability.
+    </p>
+    <p>
+      Other than work and projects, I enjoy playing basketball, gaming and picking up new things, which recently has been bouldering.
+    </p>
+  </section>
+  
+  <section id="projects">
+    <h2 class="fade-in">Featured Projects</h2>
+    <p class="fade-in">Click on a project below to learn more.</p>
+  
+    <a href="projects/remind.html" style="text-decoration: none; color: inherit;">
+      <div class="project-container">
+        <div class="project-image-container">
+          <img src="/images/ReMindHomepage.png" alt="ReMind Homepage" class="project-image">
+        </div>
+        <h3>ReMind</h3>
+        <p>A full-stack web app designed to help users improve memory and cognition.</p>
+      </div>
+    </a>
+  
+    <a href="projects/lyricloop.html" style="text-decoration: none; color: inherit;">
+      <div class="project-container">
+        <div class="project-image-container">
+          <img src="/images/LyricLoopHomepage.png" alt="Lyric Loop Homepage" class="project-image">
+        </div>
+        <h3>Lyric Loop</h3>
+        <p>An application using Last.fm's and Genius's APIs to display music data.</p>
+      </div>
+    </a>
+  
+    <a href="projects/musa.html" style="text-decoration: none; color: inherit;">
+      <div class="project-container">
+        <div class="project-image-container">
+          <video class="project-image" autoplay muted loop playsinline poster="/images/MUSADashboard.png">
+            <source src="/images/MUSADashboardVideo.mp4" type="video/mp4">
+            <img src="/images/MUSADashboard.png" alt="MUSA Dashboard" class="project-image">
+          </video>
+        </div>
+        <h3>MUSA</h3>
+        <p>A NASA API-powered app that displays images of the day and tracks near-miss celestial objects.</p>
+      </div>
+    </a>
+  
+    <div class="project-container">
+      <div class="project-image-container">
+        <img src="/images/PennywiseHome.png" alt="Pennywise Home" class="project-image">
+      </div>
+      <h3>Pennywise</h3>
+      <p>A finance visualisation tool using Swift to display and chart spending.</p>
+    </div>
+  </section>
+  
+  <section id="contact" class="fade-in">
+    <h2>Get in Touch</h2>
+    <p>
+      Don't be a stranger, feel free to reach out to me on 
+      <a href="mailto:contact@ethantoomey.com" class="link-blue">email</a>, 
+      or connect with me on 
+      <a href="https://www.linkedin.com/in/et1892" target="_blank" class="link-blue">LinkedIn</a>.
+    </p>
+  </section>
+  
+    
+
+  <script src="/js/scroll-reveal.js"></script>
+  <script src="/js/theme-toggle.js"></script>
+  <script src="/js/typewriter.js"></script>
+  
+
+  <!-- Footer with Images and Links -->
+  <footer>
+    <a href="https://github.com/ET1892" target="_blank">
+      <img class="github-icon" src="logo/githubWhite.png" alt="GitHub">
+    </a>
+    <a href="https://www.linkedin.com/in/et1892" target="_blank">
+      <img class="linkedin-icon" src="logo/linkedinWhite.png" alt="LinkedIn">
+    </a>
+    <a href="mailto:contact@ethantoomey.com">
+      <img class="email-icon" src="logo/emailWhite.png" alt="Email">
+    </a>    
+  </footer>
+</body>
+</html>
