@@ -1,0 +1,113 @@
+<!-- projects.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flights</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/logo/favicon.png" sizes="48x48" />
+    <link rel="shortcut icon" type="image/x-icon" href="/logo/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+<body>
+
+    <div class="navbar">
+        <div class="navbar-logo">
+          <a href="/">
+            <img src="logo/logo.svg" alt="Logo" width="40" height="40">
+          </a>
+        </div>
+      
+        <div class="navbar-links">
+          <a href="gallery.html">Gallery</a>
+          <a href="flights.html">Flights</a>
+        </div>
+      
+        <!-- Theme toggle button on the far right -->
+        <button class="theme-toggle" id="themeToggle">
+          <img id="themeIcon" src="logo/moon-icon.svg" alt="Theme Icon" width="24" height="24">
+        </button>
+      </div>
+      
+
+  <main id="home">
+    <h1>Projects</h1>
+    <p class=>Click on a project below to learn more.</p>
+  </main>
+
+  <section id="projects">
+    <a href="projects/remind.html" style="text-decoration: none; color: inherit;">
+      <div class="project-container">
+        <div class="project-image-container">
+          <img src="/images/ReMindHomepage.png" alt="ReMind Homepage" class="project-image">
+        </div>
+        <h3>ReMind</h3>
+        <p>
+          A full-stack web app designed to help users improve memory and cognition.
+        </p>
+      </div>
+    </a>
+  
+    <a href="projects/lyricloop.html" style="text-decoration: none; color: inherit;">
+      <div class="project-container">
+        <div class="project-image-container">
+          <img src="/images/LyricLoopHomepage.png" alt="Lyric Loop Homepage" class="project-image">
+        </div>
+        <h3>Lyric Loop</h3>
+        <p>
+          An application using Last.fm's and Genius's APIs to display music data.
+        </p>
+      </div>
+      </a>
+  
+
+      <a href="projects/musa.html" style="text-decoration: none; color: inherit;">
+        <div class="project-container">
+          <div class="project-image-container">
+            <video class="project-image" autoplay muted loop playsinline poster="/images/MUSADashboard.png">
+              <source src="/images/MUSADashboardVideo.mp4" type="video/mp4">
+              <img src="/images/MUSADashboard.png" alt="MUSA Dashboard" class="project-image">
+            </video>
+          </div>
+          <h3>MUSA</h3>
+          <p>
+            A NASA API-powered app that displays images of the day and tracks near-miss celestial objects.
+          </p>
+        </div>
+      </a>
+      
+
+    <div class="project-container">
+      <div class="project-image-container">
+        <img src="/images/PennywiseHome.png" alt="Pennywise Home" class="project-image">
+      </div>
+      <h3>Pennywise</h3>
+      <p>
+        A finance visualisation tool using Swift to display and chart spending.
+      </p>
+    </div>
+  </section>
+
+  <script src="/js/theme-toggle.js"></script>
+  <script src="/js/scroll-reveal.js"></script>
+
+
+  <footer>
+    <a href="https://github.com/ET1892" target="_blank">
+      <img class="github-icon" src="logo/githubWhite.png" alt="GitHub">
+    </a>
+    <a href="https://www.linkedin.com/in/et1892" target="_blank">
+      <img class="linkedin-icon" src="logo/linkedinWhite.png" alt="LinkedIn">
+    </a>
+    <a href="mailto:contact@ethantoomey.com">
+      <img class="email-icon" src="logo/emailWhite.png" alt="Email">
+    </a>    
+  </footer>
+
+
+</body>
+</html>
