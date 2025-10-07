@@ -20,24 +20,28 @@
   
 <body>
 
-  <div class="navbar">
-    <div class="navbar-logo">
-      <a href="index.html#">
-        <img src="logo/logo.svg" alt="Logo" width="40" height="40">
+  
+  <nav class="navbar">
+    <div class="navbar-left">
+      <a href="/index.html" class="navbar-logo">
+        <img src="/logo/logo.svg" alt="Logo">
       </a>
+  
+      <ul class="navbar-links">
+        <li><a href="/gallery.html">Gallery</a></li>
+        <li><a href="/flights.html">Flights</a></li>
+      </ul>
     </div>
   
-    <div class="navbar-links">
-      <a href="gallery.html">Gallery</a>
-      <a href="flights.html">Flights</a>
-    </div>
-  
-    <!-- Theme toggle button on the far right -->
     <button class="theme-toggle" id="themeToggle">
-      <img id="themeIcon" src="logo/moon-icon.svg" alt="Theme Icon" width="24" height="24">
+      <img id="themeIcon" src="/logo/moon-icon.svg" alt="Theme Icon">
     </button>
-  </div>
+  </nav>
+  
+  
 
+  
+  
   <main id="home">
     <div class="intro-text container fade-in">
       <h3>Hello, my name is</h3>
@@ -50,7 +54,6 @@
         I’m passionate about learning new technologies and improving my skills as a software engineer.
       </p>
     </div>
-  </main>
   
   <section id="about" class="fade-in">
     <h2>About</h2>
@@ -66,8 +69,8 @@
   
   <section id="projects">
     <h2 class="fade-in">Featured Projects</h2>
-    <p class="fade-in">Click on a project below to learn more.</p>
-  
+    <p class="fade-in special-margin">Click on a project below to learn more.</p>
+    
     <a href="projects/remind.html" style="text-decoration: none; color: inherit;">
       <div class="project-container">
         <div class="project-image-container">
@@ -119,12 +122,14 @@
       <a href="https://www.linkedin.com/in/et1892" target="_blank" class="link-blue">LinkedIn</a>.
     </p>
   </section>
+</main>
   
     
 
   <script src="/js/scroll-reveal.js"></script>
-  <script src="/js/theme-toggle.js"></script>
   <script src="/js/typewriter.js"></script>
+  <script src="/js/theme-toggle.js"></script>
+
   
 
   <!-- Footer with Images and Links -->
